@@ -92,7 +92,7 @@ Rhodes-Vivour Capital partners.
 
             {!isStandalone && (
                <Link to="/intelligence" className="text-xs uppercase tracking-widest text-white border-b border-transparent hover:border-white transition-colors">
-                  Explore Full Intelligence Suite
+                 Explore Full Intelligence Suite
                </Link>
             )}
           </div>
@@ -116,7 +116,8 @@ Rhodes-Vivour Capital partners.
                   {loading ? (
                     <div className="space-y-2 animate-pulse">
                       <div className="flex items-center text-bronze-500">
-                        <span className="mr-2">></span>
+                        {/* FIX 1: Replaced > with &gt; */}
+                        <span className="mr-2">&gt;</span>
                         <span>INITIALIZING VECTOR ANALYSIS...</span>
                       </div>
                       <div className="text-gray-600 pl-4">Parsing global macro data...</div>
@@ -126,7 +127,8 @@ Rhodes-Vivour Capital partners.
                   ) : insight ? (
                     <div className="animate-fade-in space-y-6">
                       <div className="flex items-center text-bronze-500 mb-6">
-                        <span className="mr-2">></span>
+                        {/* FIX 2: Replaced > with &gt; */}
+                        <span className="mr-2">&gt;</span>
                         <span className="uppercase">THESIS GENERATED: {selectedSector}</span>
                         <span className="ml-auto text-xs text-gray-600">{new Date().toISOString()}</span>
                       </div>
