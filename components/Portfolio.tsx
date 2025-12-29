@@ -7,43 +7,43 @@ import { Link } from 'react-router-dom';
 const companies: PortfolioCompany[] = [
   {
     id: '1',
-    name: 'Nebula Genomics',
-    category: 'BioTech',
-    description: 'Personalized DNA sequencing infrastructure.',
-    image: 'https://images.unsplash.com/photo-1579165466741-7f35a4755657?q=80&w=2000&auto=format&fit=crop',
-    roi: 'Seed'
+    name: 'Commodity Trading',
+    category: 'Trade',
+    description: 'Strengthening supply chains, improving market access, and fostering efficient trade networks across the region.',
+    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2000&auto=format&fit=crop',
+    roi: 'Active'
   },
   {
     id: '2',
-    name: 'Solaris Systems',
-    category: 'Energy',
-    description: 'High-efficiency urban photovoltaic skins.',
-    image: 'https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?q=80&w=2000&auto=format&fit=crop',
-    roi: 'Series B'
+    name: 'Agriculture',
+    category: 'Agri-Tech',
+    description: 'Driving advancements in agri-tech, sustainable farming practices, and food security initiatives to revolutionize the agricultural landscape.',
+    image: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?q=80&w=2000&auto=format&fit=crop',
+    roi: 'Active'
   },
   {
     id: '3',
-    name: 'Quantum Ledger',
-    category: 'FinTech',
-    description: 'Institutional settlement layers for central banks.',
-    image: 'https://images.unsplash.com/photo-1639322537228-ad714291f22c?q=80&w=2000&auto=format&fit=crop',
-    roi: 'Series A'
+    name: 'A.I. Labs',
+    category: 'Technology',
+    description: 'Investing in state-of-the-art research hubs to nurture innovation and develop Africa-centric AI applications.',
+    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2000&auto=format&fit=crop',
+    roi: 'Active'
   },
   {
     id: '4',
-    name: 'AeroVantage',
-    category: 'Logistics',
-    description: 'Autonomous heavy-lift orbital drones.',
-    image: 'https://images.unsplash.com/photo-1517976487492-5750f3195933?q=80&w=2000&auto=format&fit=crop',
-    roi: 'Seed'
+    name: 'Genetic Research',
+    category: 'BioTech',
+    description: "Pioneering advancements in genetics for agricultural, healthcare, and environmental benefits tailored to Africa's unique challenges.",
+    image: 'https://images.unsplash.com/photo-1579165466741-7f35a4755657?q=80&w=2000&auto=format&fit=crop',
+    roi: 'Active'
   },
   {
     id: '5',
-    name: 'Synth-X',
-    category: 'Materials',
-    description: 'Carbon-negative synthetic construction materials.',
-    image: 'https://images.unsplash.com/photo-1518364538800-6bae3c2ea0f2?q=80&w=2000&auto=format&fit=crop',
-    roi: 'Series C'
+    name: 'Sustainability Programs',
+    category: 'Resources',
+    description: 'Leading the integration of cutting-edge technology, sustainability programs, and responsible resource management.',
+    image: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=2000&auto=format&fit=crop',
+    roi: 'Active'
   }
 ];
 
@@ -63,9 +63,9 @@ const Portfolio: React.FC<PortfolioProps> = ({ isStandalone = true }) => {
     <section className={`${isStandalone ? 'min-h-screen pt-40 pb-20' : 'py-24 md:py-32'} bg-[#080808] relative overflow-hidden`}>
       <div className="container mx-auto px-6 md:px-12 relative z-10">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20">
-          <SectionHeading subtitle="Portfolio" title="Selected Investments" light className="mb-0" />
-          <p className="text-gray-500 max-w-xs text-sm mt-8 md:mt-0 text-right">
-            Curated exposure to category-defining assets across critical sectors.
+          <SectionHeading subtitle="Portfolio" title="Our Portfolio" light className="mb-0" />
+          <p className="text-gray-500 max-w-sm text-sm mt-8 md:mt-0 text-right">
+            Inspiring progress, empowering communities, and building lasting legacies across key industries.
           </p>
         </div>
 
@@ -125,7 +125,7 @@ const Portfolio: React.FC<PortfolioProps> = ({ isStandalone = true }) => {
                />
                <div className="absolute bottom-8 left-8 z-20">
                   <p className="text-white font-serif italic text-2xl max-w-[200px]">
-                    {hoveredCompany ? companies.find(c => c.id === hoveredCompany)?.description : "Building the future."}
+                    {hoveredCompany ? companies.find(c => c.id === hoveredCompany)?.description : "Unlocking Africa's potential."}
                   </p>
                </div>
             </div>

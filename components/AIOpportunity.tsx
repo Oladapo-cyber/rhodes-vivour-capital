@@ -65,13 +65,13 @@ Rhodes-Vivour Capital partners.
         <div className="flex flex-col lg:flex-row gap-20">
           
           <div className="lg:w-1/3">
-            <SectionHeading subtitle="Intelligence" title="Proprietary Alpha Generation" light />
+            <SectionHeading subtitle="A.I. Labs" title="Africa-Centric AI Solutions" light />
             <p className="text-gray-400 font-light leading-relaxed mb-8">
-              In a world of noise, signal is the only currency. Rhodes-Vivour utilizes 'Gemini 2.5' neural architecture to process millions of data points, synthesizing actionable theses for our limited partners.
+              Leading the integration of cutting-edge AI solutions to enhance operations and build smarter systems for businesses and communities. We invest in state-of-the-art research hubs to nurture innovation and develop Africa-centric AI applications.
             </p>
             
             <div className="space-y-4 mb-8">
-              <p className="text-xs uppercase tracking-widest text-bronze-500 mb-4">Select Sector Vector</p>
+              <p className="text-xs uppercase tracking-widest text-bronze-500 mb-4">Select Investment Sector</p>
               <div className="flex flex-wrap gap-2">
                 {Object.values(InsightCategory).map((category) => (
                   <button
@@ -92,7 +92,7 @@ Rhodes-Vivour Capital partners.
 
             {!isStandalone && (
                <Link to="/intelligence" className="text-xs uppercase tracking-widest text-white border-b border-transparent hover:border-white transition-colors">
-                 Explore Full Intelligence Suite
+                 Explore A.I. Labs Insights
                </Link>
             )}
           </div>

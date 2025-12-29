@@ -11,7 +11,7 @@ const Contact: React.FC<ContactProps> = ({ isStandalone = true }) => {
     <section className={`${isStandalone ? 'min-h-screen pt-40 pb-20' : 'py-24 md:py-32'} bg-rich-950 relative`}>
       <div className="container mx-auto px-6 md:px-12">
         <div className="max-w-4xl mx-auto">
-          <SectionHeading subtitle="Partnership" title="Begin the Dialogue" align="center" light className="mb-16" />
+          <SectionHeading subtitle="Partnership" title="Connect With Us" align="center" light className="mb-16" />
           
           <div className="bg-white/5 p-12 md:p-16 border border-white/10 backdrop-blur-sm">
             <form className="space-y-12" onSubmit={(e) => e.preventDefault()}>
@@ -56,16 +56,16 @@ const Contact: React.FC<ContactProps> = ({ isStandalone = true }) => {
 
           <div className="mt-24 grid grid-cols-1 md:grid-cols-3 gap-8 text-center text-gray-400 font-serif border-t border-white/10 pt-12">
              <div>
-                <h4 className="text-white text-lg mb-2">New York</h4>
-                <p className="text-sm font-sans font-light">1 Hudson Yards, <br/>Level 45</p>
+                <h4 className="text-white text-lg mb-2">Lagos</h4>
+                <p className="text-sm font-sans font-light">Victoria Island, <br/>Lagos, Nigeria</p>
              </div>
              <div>
-                <h4 className="text-white text-lg mb-2">London</h4>
-                <p className="text-sm font-sans font-light">One Canada Square, <br/>Canary Wharf</p>
+                <h4 className="text-white text-lg mb-2">Johannesburg</h4>
+                <p className="text-sm font-sans font-light">Sandton City, <br/>South Africa</p>
              </div>
              <div>
-                <h4 className="text-white text-lg mb-2">Singapore</h4>
-                <p className="text-sm font-sans font-light">Marina Bay Financial Ctr, <br/>Tower 2</p>
+                <h4 className="text-white text-lg mb-2">Nairobi</h4>
+                <p className="text-sm font-sans font-light">Westlands, <br/>Kenya</p>
              </div>
           </div>
         </div>
