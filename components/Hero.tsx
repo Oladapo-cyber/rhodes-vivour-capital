@@ -21,15 +21,14 @@ const Hero: React.FC = () => {
       <div className="relative z-10 container mx-auto px-6 md:px-12 flex flex-col h-full justify-center">
         <div className="max-w-4xl animate-fade-up" style={{animationDelay: '0.2s'}}>
           <p className="text-bronze-500 text-xs md:text-sm font-bold tracking-[0.3em] uppercase mb-8">
-            Established 2024
+            Unlocking Africa's Potential
           </p>
-          <h1 className="text-5xl md:text-7xl lg:text-9xl font-serif font-medium leading-[0.9] tracking-tight mb-12 text-balance drop-shadow-2xl">
-            Capital for the <br />
-            <span className="italic text-white/90 font-light">Unimagined.</span>
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-medium leading-[0.9] tracking-tight mb-12 text-balance drop-shadow-2xl">
+            Driven by a mission to <br />
+            <span className="italic text-white/90 font-light">inspire progress.</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-200 font-light max-w-xl leading-relaxed border-l border-bronze-500/50 pl-8 drop-shadow-lg">
-            We deploy patient capital into the infrastructure of tomorrow. 
-            Bridging the divide between present value and future potential.
+            Rhodes-Vivour Capital (RVC) is a leading investment firm dedicated to unlocking Africa's vast economic potential by strategically enhancing value chains across key industries.
           </p>
         </div>
       </div>
@@ -37,12 +36,12 @@ const Hero: React.FC = () => {
       <div className="absolute bottom-12 left-0 right-0 z-10 flex justify-between container mx-auto px-6 md:px-12 items-end">
         <div className="hidden md:flex gap-16">
           <div>
-            <span className="block text-3xl font-serif text-white drop-shadow-md">12B+</span>
-            <span className="text-[10px] uppercase tracking-widest text-gray-300">Assets Under Management</span>
+            <span className="block text-3xl font-serif text-white drop-shadow-md">5+</span>
+            <span className="text-[10px] uppercase tracking-widest text-gray-300">Key Industries</span>
           </div>
           <div>
-            <span className="block text-3xl font-serif text-white drop-shadow-md">45</span>
-            <span className="text-[10px] uppercase tracking-widest text-gray-300">Portfolio Companies</span>
+            <span className="block text-3xl font-serif text-white drop-shadow-md">Africa</span>
+            <span className="text-[10px] uppercase tracking-widest text-gray-300">Focused Markets</span>
           </div>
         </div>
         

@@ -13,16 +13,16 @@ const Philosophy: React.FC<PhilosophyProps> = ({ isStandalone = true }) => {
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
           <div>
-            <SectionHeading subtitle="The Firm" title="Architecting Value Across Generations" light />
+            <SectionHeading subtitle="The Firm" title="Empowering Communities, Building Legacies" light />
             <div className="h-px w-full bg-gradient-to-r from-bronze-500/50 to-transparent mb-12"></div>
             <p className="text-xl md:text-2xl font-light text-gray-300 leading-relaxed mb-8">
-              True wealth is not merely accumulated; it is engineered. 
+              Driven by a mission to inspire progress, empower communities, and build lasting legacies.
             </p>
             <p className="text-gray-500 leading-loose font-light mb-8">
-              At Rhodes-Vivour, we do not chase market trends. We analyze fundamental shifts in technology, demographics, and resource scarcity to identify value decades before it becomes obvious. Our approach is mathematical, disciplined, and relentlessly long-term.
+              At Rhodes-Vivour Capital, we are a passionate team dedicated to unlocking Africa's vast economic potential. By combining innovative investment strategies with a deep understanding of Africa's markets, we deliver value to stakeholders and catalyze development across the continent.
             </p>
              <p className="text-gray-500 leading-loose font-light mb-8">
-              Founded on the principles of integrity and intellectual rigor, Rhodes-Vivour serves a select group of institutional partners and ultra-high-net-worth families. We view capital not just as a financial instrument, but as a tool for shaping the trajectory of human progress.
+              With a forward-looking vision, we leverage innovative approaches to create sustainable growth and drive impactful transformations in the continent's dynamic markets. We strategically enhance value chains across key industries to build a prosperous future for Africa.
             </p>
             
             {!isStandalone && (
@@ -34,9 +34,9 @@ const Philosophy: React.FC<PhilosophyProps> = ({ isStandalone = true }) => {
 
           <div className="grid gap-8">
             {[
-              { num: "01", title: "Asymmetric Upside", text: "We seek opportunities where the potential for reward vastly outweighs the calculated risk, leveraging proprietary AI modeling to identify market inefficiencies." },
-              { num: "02", title: "Operator Mindset", text: "We are not passive allocators. We partner deeply with management teams, providing strategic guidance and operational expertise to catalyze growth." },
-              { num: "03", title: "Global Mandate", text: "Innovation has no borders. Our capital flows seamlessly between developed and emerging markets, capturing growth wherever it manifests." }
+              { num: "01", title: "Sustainable Growth", text: "We leverage innovative approaches to create sustainable growth and drive impactful transformations in Africa's dynamic markets." },
+              { num: "02", title: "Value Chain Enhancement", text: "We strategically enhance value chains across key industries, from commodity trading to cutting-edge technology, creating lasting economic impact." },
+              { num: "03", title: "Africa-Centric Innovation", text: "Our investments focus on developing Africa-centric solutions in agriculture, technology, and research that address the continent's unique challenges and opportunities." }
             ].map((item, idx) => (
               <div key={idx} className="group border-b border-white/10 pb-8 hover:border-bronze-500/50 transition-colors duration-500">
                 <div className="flex items-baseline justify-between mb-4">

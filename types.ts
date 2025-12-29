@@ -16,10 +16,11 @@ export interface TeamMember {
 }
 
 export enum InsightCategory {
-  TECH = "Technology",
-  HEALTH = "Healthcare",
-  ENERGY = "Clean Energy",
-  FINANCE = "FinTech"
+  COMMODITY = "Commodity Trading",
+  AGRICULTURE = "Agriculture",
+  AITECH = "A.I. Labs",
+  GENETICS = "Genetic Research",
+  SUSTAINABILITY = "Sustainability"
 }
 
 export interface GeneratedInsight {
